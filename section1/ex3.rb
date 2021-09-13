@@ -1,5 +1,5 @@
 puts "I will now count my chckens:"
-
+# Ruby is caclulating the formula
 puts "Hens #{25 + 30 / 6}"
 puts "Roosters #{100 - 25 * 3 % 4}"
 
