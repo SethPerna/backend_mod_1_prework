@@ -4,19 +4,19 @@
 # `ruby section2/exercises/methods.rb`
 
 # Example: Write a method that when called will print your name:
-
-
-def print_name(arg1, arg2)
+def name
   p "Seth Perna"
 end
 
-print_name("Seth", "Perna")
+name()
+
+
 # Write a method that takes a name as an argument and prints it:
-def print_name_again(arg1, arg2)
-  p  "arg1: #{arg1} arg2: #{arg2}"
+def print_name(arg1, arg2)
+  puts "My name is #{arg1} #{arg2}."
 end
 
-print_name_again("Seth", "Perna")
+print_name("Seth", "Perna")
 
 # Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:

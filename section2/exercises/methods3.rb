@@ -39,7 +39,7 @@ puts " That becomes: #{what}. Can you do it by hand?"
 
 def multiply(dogs, cats)
   puts "Muliplying #{dogs} * #{cats}"
-  return dogs * cats
+  return dogs * cats 
 end
 
 dogs = add(4, 1)

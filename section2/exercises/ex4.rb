@@ -8,5 +8,5 @@ minutes = 6
     p "Its boiling!"
   else
     p "Hot! Hot! Hot!"
-  end
+end
 # end
